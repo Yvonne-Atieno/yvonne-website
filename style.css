@@ -1,165 +1,167 @@
 body{
-    background-color: rgb(250, 248, 248);
-}
-#homepg{
-    background-image: linear-gradient(rgb(128, 128, 168),rgb(129, 92, 129));
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-}
-#nav{
-    display: grid;
-    grid-template-columns: repeat(6, 6fr);
-    font-size: 1em;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-#gadget{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-#get{
-    color: yellow;
-}
-#btn{
-    padding: 0px 8px;
-    background-color: yellow;
-    color: black;
-    cursor: pointer;
-}
-#category{
-    display: flex;
-    font-size: 1em;
-}
-#cate{
-    padding: 5px 40px;
-    font-weight: bold;
-}
-#search{
-    border: solid 1px rgb(117, 115, 116);
-    width: 50em;
-    height: 2em;
-}
-#gadgets{
-    font-size: 3.5em;
-    font-weight: bold;
-    padding-left: 0.5em;
-}
-#ipsum{
-    padding-left: 2em;
-}
-#order{
-    cursor: pointer;
-    padding: 12px 38px;
-    background-color: yellow;
-    color: black;
-}
-#explore{
-    cursor: pointer;
-    padding: 12px 38px;
-}
-#games{
-    display: grid;
-    grid-template-columns: repeat(6, 6fr);
-    font-size: 1em;
-    text-align: center;
-}
-#icon{
-    font-size: 2em;
-}
-#icons{
-    border: solid 1px rgb(153, 158, 153);
-    gap: 2em;
-    width: 10em;
-    height: 7em;
-}
-#icona{
-    font-size: 2em;
-}
-#iccons{
-    border: solid 1px rgb(153, 158, 153);
-    gap: 2em;
-    width: 10em;
-    height: 7em;
-    color: white;
-    background-color: black;
-}
-#new{
-    background-image: url(/images/headph.png);
-    width: 75%;
-    background-color: rgb(77, 77, 133);
-    color: white;
-}
-#info{
-    font-size: 3em;
-    font-weight: bold;
-}
-#year{
-    font-size: 1.5em;
-}
-#pro{
-    background-image: url(/images/camera.jpg);
-    display: flex;
-}
-#amet{
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-}
-#be{
-    color: white;
-    font-size: 4.5em;
-    font-weight: bold;
-}
-#online{
-    color: white;
-    font-weight: bold;
-}
-#off{
-    color: yellow;
-}
-#samrtphone{
-    font-size: 3em;
-    font-weight: bold;
-}
-#next{
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    text-align: center;
-    background-image: linear-gradient(rgb(177, 147, 190),rgb(129, 119, 129));
-}
-#testimo{
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold;
-}
-#dolarsit{
-    text-align: center;
-}
-#letter{
-    font-size: 3em;
-    font-weight: bold;
-}
-#email{
-    font-weight: bold;
-    background-color: yellow;
-    padding: 15px 16px;
-}
-#footer{
-    margin-top: 1em;
-    background-color: black;
-    color: white;
-    font-size: 1.1em;
-    display: grid;
-    grid-template-columns: repeat(5, 5fr);
-}
-ul{
-    list-style: none;
-}
-#dag{
-    color: yellow;
-}
-#dags{
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
+    margin: 0%;
+    padding: 0%;
+    background: fixed;
+    }
+    header {
+      background-color: #333;
+      padding: 10px;
+      color: #fff;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 10%;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+    #sign {
+      align-items: center;
+      background-color: yellow;
+      color: black;
+      /* border-radius: 5%; */
+      padding:2% 5%;
+    }
+    #pac{
+      color: yellow;
+    }
+    .Text {
+      display: flex;
+      align-items: center;
+      margin: 7%;
+     background-color:rgb(182, 170, 202);
+     margin-top: 5%;
+    }
+    .Text h1{
+      font-size: 60px;
+    }
+    .Text p {
+      flex: 1;
+    }
+    .Text img {
+      margin-right: 90%;
+      height: 180%;
+      width: 205%;
+    }
+    #explore {
+      align-items: center;
+      color: black;
+      border-radius: 5%;
+      padding: 9px;
+    }
+    .icons {
+      display: flex;
+      margin-left: 7%;
+      gap: 5%;
+    }
+    .icons > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+      border: 1px solid #ccc;
+    }
+    .icons img,
+    .icons ion-icon {
+      width: 50px;
+      height: 50px;
+    }
+    .icons p {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .OUR{
+      background-color: lightgrey;
+      padding-top: 3%;
+    }
+    #bt{
+      background-color: black;
+      color: yellow;
+    }
+    .offers{
+      margin-top: 2%;
+    }
+    .products{
+      display: flex;
+      gap: 2%;
+      margin-left: 8%;
+    }
+    .products2{
+      display: flex;
+      gap: 2%;
+      margin-left: 8%;
+    }
+    .Promax{
+      display: flex;
+    }
+     #head{
+      width: 700px;
+      height: 450px;
+    }
+    #head2{
+      width: 500px;
+      height: 350px;
+      padding-top: 14%;
+    }
+    #cell{
+      margin-left: 6%;
+      width: 89%;
+    }
+    .testimony{
+      text-align: center;
+    }
+    .Image{
+      display: flex;
+      margin-left: 6%;
+      gap: 8%;
+    }
+    .set{
+      font-size: 20px;
+    }
+    #quoote{
+      width: 700px;
+      height: 400px;
+    }
+    .foot{
+      display: flex;
+      gap: 30%;
+      padding-left: 5%;
+    }
+    #email{
+      justify-content: right;
+      background-color: yellow;
+      color: black;
+      /* border-radius: 20%; */
+      padding:20% 150% ;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: #090909;
+      padding: 20px;
+      gap: 6%;
+      color: white;
+    }
+    .column {
+      flex-basis: 20%;
+    }
+    h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
