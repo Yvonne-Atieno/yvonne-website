@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(250, 248, 248);
+}
+#homepg{
+    background-image: linear-gradient(rgb(128, 128, 168),rgb(129, 92, 129));
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+#nav{
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#gadget{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#get{
+    color: yellow;
+}
+#btn{
+    padding: 0px 8px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+#category{
+    display: flex;
+    font-size: 1em;
+}
+#cate{
+    padding: 5px 40px;
+    font-weight: bold;
+}
+#search{
+    border: solid 1px rgb(117, 115, 116);
+    width: 50em;
+    height: 2em;
+}
+#gadgets{
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+#ipsum{
+    padding-left: 2em;
+}
+#order{
+    cursor: pointer;
+    padding: 12px 38px;
+    background-color: yellow;
+    color: black;
+}
+#explore{
+    cursor: pointer;
+    padding: 12px 38px;
+}
+#games{
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    font-size: 1em;
+    text-align: center;
+}
+#icon{
+    font-size: 2em;
+}
+#icons{
+    border: solid 1px rgb(153, 158, 153);
+    gap: 2em;
+    width: 10em;
+    height: 7em;
+}
+#icona{
+    font-size: 2em;
+}
+#iccons{
+    border: solid 1px rgb(153, 158, 153);
+    gap: 2em;
+    width: 10em;
+    height: 7em;
+    color: white;
+    background-color: black;
+}
+#new{
+    background-image: url(/images/headph.png);
+    width: 75%;
+    background-color: rgb(77, 77, 133);
+    color: white;
+}
+#info{
+    font-size: 3em;
+    font-weight: bold;
+}
+#year{
+    font-size: 1.5em;
+}
+#pro{
+    background-image: url(/images/camera.jpg);
+    display: flex;
+}
+#amet{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+#be{
+    color: white;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+#online{
+    color: white;
+    font-weight: bold;
+}
+#off{
+    color: yellow;
+}
+#samrtphone{
+    font-size: 3em;
+    font-weight: bold;
+}
+#next{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    text-align: center;
+    background-image: linear-gradient(rgb(177, 147, 190),rgb(129, 119, 129));
+}
+#testimo{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+#dolarsit{
+    text-align: center;
+}
+#letter{
+    font-size: 3em;
+    font-weight: bold;
+}
+#email{
+    font-weight: bold;
+    background-color: yellow;
+    padding: 15px 16px;
+}
+#footer{
+    margin-top: 1em;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+}
+ul{
+    list-style: none;
+}
+#dag{
+    color: yellow;
+}
+#dags{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
